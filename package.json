@@ -1,0 +1,23 @@
+{
+  "name": "mockup-print",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "node compile-pug.js",
+    "watch": "chokidar \"templates/**/*.pug\" \"data/**/*.json\" -c \"node compile-pug.js\"",
+    "serve": "live-server output --watch=output,../assets",
+    "dev": "npm run compile && npm run watch & npm run serve"
+  },
+  "dependencies": {
+    "pug": "^3.0.3"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "live-server": "^1.2.2"
+  }
+}
