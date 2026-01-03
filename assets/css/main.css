@@ -86,6 +86,11 @@ tr {
     font-size: 12px;
 }
 
+.company-info small {
+    margin-top: 3px;
+    font-size: 11px;
+}
+
 .header-left {
     display: flex;
     width: 55%;
@@ -141,7 +146,7 @@ tr {
 table.items {
     width: 100%;
     border-collapse: collapse;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 table.items th{
@@ -194,7 +199,7 @@ table th, table td{
 }
 .total td{
     border: 1px solid #000;
-    padding: 3px;
+    padding: 1px 3px;
 }
 .total td:last-child{
     width: 50%;
@@ -206,7 +211,7 @@ table th, table td{
 }
 .footer-info td{
     border: 1px solid #000;
-    padding: 3px;
+    padding: 2px;
 }
 .footer-info td.noted{
     border: none;
