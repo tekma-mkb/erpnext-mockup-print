@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "compile": "node compile-pug.js",
     "watch": "chokidar \"templates/**/*.pug\" \"data/**/*.json\" -c \"node compile-pug.js\"",
-    "serve": "live-server output --watch=output,../assets",
+    "serve": "live-server output --watch=output,../assets --mount=/assets:./assets ",
     "dev": "npm run compile && npm run watch & npm run serve"
   },
   "dependencies": {
