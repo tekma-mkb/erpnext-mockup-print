@@ -9,7 +9,8 @@ Layout saat ini **sudah aman untuk produksi**:
 - Item tabel tidak terpotong
 - Footer selalu tercetak utuh
 - Konsisten antara HTML, PDF, dan cetak fisik
-
+- Setiap halaman memiliki timestamp
+- jika halaman lebih dari 1, tambahkan nomor halaman di sekitar timestamp 1/3 2/3 3/3
 ---
 
 ## Tujuan Project
